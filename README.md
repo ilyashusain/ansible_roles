@@ -20,13 +20,9 @@ These will be our roles, installing the specified programs on to our desired vms
 
 ```
   - name: Set-up docker
-  
     yum:
-    
       name: docker
-      
       state: latest
-      
     become: true
 ```
 
@@ -34,7 +30,6 @@ Next, vim the main.yml file as such:
 
 ```
 ---
-
 - import_tasks: docker.yml
 
 ```
