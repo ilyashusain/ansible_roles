@@ -1,0 +1,13 @@
+---
+- hosts: 10.142.0.8
+  roles:
+  - docker
+- hosts: 10.142.0.9
+  roles:
+  - jenkins
+- hosts: 10.142.0.10
+  roles:
+  - nexus
+- hosts: 10.142.0.11
+  roles:
+  - git
