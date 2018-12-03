@@ -34,6 +34,6 @@ Next, vim the main.yml file as such:
 
 ```
 
-This will call the docker.yml file we just created. Do this for the jenkins, nexus and git roles. Refer to the above referenced repo for the script.
+This will call the docker.yml file we just created. Do this for the jenkins, nexus and git roles. Refer to the above referenced repo for the scripts.
 
-Now we are ready to run ```ansibleRoles.yml```.
+Now we are ready to run ```ansibleRoles.yml```, whereafter the installations will occur without issue.
